@@ -38,6 +38,20 @@ body {
     text-decoration: none;
    
 }
+.item-count {
+    position: relative;
+     /* top: -50px; */
+    left: -50%; 
+    background-color: rgba(red, green, blue, 0.1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: 'none',
+}
 
 /* Product Grid */
 .product-grid {
@@ -110,6 +124,15 @@ body {
 .product-button:hover {
     background-color: #c0392b;
 }
+
+/* Disabled button styles */
+.product-button:disabled {
+    background-color: gray; /* Gray background */
+    color: lightgray; /* Light gray text */
+    cursor: not-allowed; /* Show "not allowed" cursor */
+    opacity: 0.7; /* Slight transparency for a disabled look */
+}
+
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
