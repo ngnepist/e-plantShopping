@@ -231,7 +231,7 @@ function ProductList() {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: '100%',
+    width: '50%',
    }
    const styleA={
     color: 'white',
