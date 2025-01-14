@@ -237,6 +237,8 @@ function ProductList() {
     color: 'white',
     fontSize: '30px',
     textDecoration: 'none',
+    position: 'relative'
+    
    }
    const handleCartClick = (e) => {
     e.preventDefault();
